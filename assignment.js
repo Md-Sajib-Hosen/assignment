@@ -22,7 +22,7 @@ function kilometerToMeter(kilometer) {
 
 function budgetCalculator(watch, phone, laptop) {
 
-    const totalValue = watch * 50 + phone * 100 + laptop * 500;
+    var totalValue = watch * 50 + phone * 100 + laptop * 500;
 
     if (watch, phone, laptop < 0) {
         return "product can't be negative"
